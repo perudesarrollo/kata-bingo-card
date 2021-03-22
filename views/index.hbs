@@ -1,0 +1,21 @@
+<h1>{{title}} :)</h1>
+<p>Welcome to {{title}}</p>
+<br>
+{{ bingoCard.B }}
+<table border="1" cellspacing="5" collapsing="5">
+    <tr>
+        <td>B</td>
+        <td>I</td>
+        <td>N</td>
+        <td>G</td>
+        <td>O</td>
+    </tr>
+    <tr>
+        {{#each ['B','I','N','G','O']}}
+        <td>{{this}} -- a</td>
+        {{/each}}
+    </tr>
+
+
+
+</table>
