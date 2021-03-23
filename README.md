@@ -1,4 +1,4 @@
-# kata-bingo-card
+# kata bingo card
 Test Mocha - Chai - Express
 
 ```
